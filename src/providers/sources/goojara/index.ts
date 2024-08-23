@@ -24,7 +24,7 @@ export const goojaraScraper = makeSourcerer({
   name: 'Goojara',
   rank: 70,
   flags: [],
-  disabled: true,
+  disabled: false,
   scrapeShow: universalScraper,
   scrapeMovie: universalScraper,
 });

@@ -8,7 +8,7 @@ export const zoechipScraper = makeSourcerer({
   name: 'ZoeChip',
   rank: 62,
   flags: [flags.CORS_ALLOWED],
-  disabled: true,
+  disabled: false,
   scrapeMovie,
   scrapeShow,
 });

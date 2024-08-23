@@ -6,15 +6,17 @@ const providers = [
   {
     id: 'nova',
     rank: 720,
+    disabled: false,
   },
   {
     id: 'astra',
     rank: 710,
+    disabled: false,
   },
   {
     id: 'orion',
     rank: 700,
-    disabled: true,
+    disabled: false,
   },
 ];
 

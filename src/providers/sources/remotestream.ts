@@ -10,7 +10,7 @@ const referer = 'https://remotestre.am/';
 export const remotestreamScraper = makeSourcerer({
   id: 'remotestream',
   name: 'Remote Stream',
-  disabled: true,
+  disabled: false,
   rank: 20,
   flags: [flags.CORS_ALLOWED],
   async scrapeShow(ctx) {

@@ -7,7 +7,7 @@ import { flixhqScraper } from '@/providers/sources/flixhq';
 import { upcloudScraper } from '@/providers/embeds/upcloud';
 import { goMoviesScraper } from '@/providers/sources/gomovies';
 import { smashyStreamScraper } from '@/providers/sources/smashystream';
-import { smashyStreamDScraper } from '@/providers/embeds/smashystream/dued';
+import { smashyStreamOScraper } from '@/providers/embeds/smashystream/opstream';
 import { vidsrcembedScraper } from '@/providers/embeds/vidsrc';
 import { vidsrcScraper } from '@/providers/sources/vidsrc';
 import { vidSrcToScraper } from '@/providers/sources/vidsrcto';
@@ -52,7 +52,7 @@ testEmbed({
 });
 
 testEmbed({
-  embed: smashyStreamDScraper,
+  embed: smashyStreamOScraper,
   source: smashyStreamScraper,
   testSuite: [testMedia.arcane, testMedia.hamilton],
   types: ['standard', 'proxied'],
